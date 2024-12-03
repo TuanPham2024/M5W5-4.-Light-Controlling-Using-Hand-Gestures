@@ -1,0 +1,14 @@
+# hand_gesture_env\Scripts\activate
+numpy
+opencv-python
+pillow
+pascal_voc_writer
+cvzone
+pyyaml>=6.0            # Đọc và xử lý file cấu hình YAML
+                       # Dùng cho hand_gesture.yaml
+pandas
+mediapipe==0.10.18      # Thư viện Google cho phát hiện điểm mốc bàn tay
+                        # Version cố định để đảm bảo tương thích
+torch==2.5.0
+pyserial
+matplotlib>=3.7.1      # Thư viện vẽ đồ thị, visualization
